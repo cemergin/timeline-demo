@@ -9,6 +9,16 @@ used create-react-app to generate the boilerplate code
 - npm install
 - npm start
 
+### Technologies Used
+
+- JavaScript
+- Node
+- React
+- create-react-app
+- Redux
+- Moment.js
+- React Draggable
+
 ### Features:
 
 - Collusion-Free Event Positioning
