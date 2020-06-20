@@ -1,0 +1,94 @@
+.MainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Timeline {
+  margin-top: 5%;
+  text-align: center;
+  width: 80%;
+  height: 70vh;
+  border: px solid rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+
+.TimelineButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 5%;
+  background-color: rgba(216, 216, 216, 0.45);
+  box-shadow: 0px 3px rgba(100, 100, 100, 0.6);
+  z-index: 10;
+}
+
+.TimelineButtonsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80%;
+  width: 40%;
+  margin-right: 1%;
+}
+
+.TimelineButtonsDiv button {
+  margin-left: 3%;
+}
+
+.TimelineContent {
+  position: relative;
+  height: 95%;
+  overflow: auto;
+}
+
+.TimelineGrid {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: -1;
+}
+.TimelineGridContainer {
+  height: 100%;
+}
+.TimelineGridHeader {
+  height: 5%;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.TimelineGridHeader p {
+  margin: 0;
+}
+
+.TimelineGridColumn {
+  height: 300%;
+  border-left: 1px dotted rgba(0, 0, 0, 0.5);
+}
+
+.TimelineElement {
+  position: absolute;
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.TimelineElement textarea {
+  width: 80%;
+  height: 80%;
+  background-color: transparent;
+  border: none;
+  resize: none;
+}
